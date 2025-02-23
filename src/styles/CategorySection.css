@@ -1,0 +1,24 @@
+.category-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .category-section select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+    background-color: white;
+  }
+  
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+  .category-section {
+    flex-direction: column;
+  }
+
+  .category-section select {
+    width: 100%;
+  }
+}

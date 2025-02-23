@@ -1,0 +1,143 @@
+.love-picks {
+    background-image: url('/public/FlowerAndRomanticGifts/bg5.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    text-align: center;
+    color: #68104b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.love-picks h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.love-product-sections-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.love-product-section {
+    width: 350px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.love-product-section h3 {
+    margin-bottom: 15px;
+    color: #3d0016;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.love-product-slider {
+    padding: 10px;
+}
+
+.love-card {
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.love-card img {
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+.love-card h3 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.love-card p {
+    color: #e2112c;
+    font-weight: bold;
+}
+
+.shop-now-btn {
+    background: #ff3385;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.shop-now-btn:hover {
+    background: #e62e73;
+}
+.love-product-grid {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.love-grid-row {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.love-grid-item {
+    min-width: 220px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.love-grid-item:hover {
+    transform: scale(1.05);
+}
+
+.love-grid-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.love-rating {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.heart-rating {
+    font-size: 20px;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.heart-rating.filled {
+    color: #ff3385;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Pushes to the right */
+}
+@media (max-width: 768px) {
+    .love-product-sections-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .love-product-section {
+        width: 90%;
+    }
+}

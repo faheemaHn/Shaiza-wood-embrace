@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Your existing styles */
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 600px) {
+  .category-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-section select {
+    width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin-bottom: 10px;
+  }
+
+  .carousel-item img {
+    height: 250px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+  }
+}
