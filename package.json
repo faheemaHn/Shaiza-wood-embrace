@@ -2,6 +2,7 @@
   "name": "example-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://faheemaHn.github.io/Shaiza-wood-embrace",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
@@ -14,6 +15,7 @@
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
     "swiper": "^11.2.2"
+    
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,3 +46,4 @@
     "gh-pages": "^6.3.0"
   }
 }
+
