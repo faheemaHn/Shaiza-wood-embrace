@@ -37,7 +37,8 @@ const SuperDeal = () => {
           <div className="superdeal-product-grid">
             {sampleProducts.map((product) => (
               <div key={product.id} className="superdeal-product-card">
-                <img src={product.image} alt={product.name} />
+                <img src={process.env.PUBLIC_URL + product.image} alt={product.name} />
+
                 <h4>{product.name}</h4>
                 {product.shipping === 'Free' && <span className="free-shipping-badge">Free Shipping</span>}
                 <div className="price-container">

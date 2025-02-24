@@ -12,11 +12,8 @@ function HeroSection() {
       <div className="carousel-overlay">
         <Carousel>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/FlowerAndRomanticGifts/bg1.webp"
-              alt="Wooden Craft 1"
-            />
+          <img className="d-block w-100" src={process.env.PUBLIC_URL + "/FlowerAndRomanticGifts/bg1.webp"} alt="Wooden Craft 1" />
+
             <Carousel.Caption>
               <h3>Explore Unique Wooden Gifts</h3>
               <p>Handcrafted with love and care.</p>
@@ -24,11 +21,7 @@ function HeroSection() {
           </Carousel.Item>
 
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/FlowerAndRomanticGifts/bg2.webp"
-              alt="Wooden Craft 2"
-            />
+          <img className="d-block w-100" src={process.env.PUBLIC_URL + "/FlowerAndRomanticGifts/bg2.webp"} alt="Wooden Craft 2" />
             <Carousel.Caption>
               <h3>Creative Custom Designs</h3>
               <p>Perfect for every special occasion.</p>
@@ -36,11 +29,7 @@ function HeroSection() {
           </Carousel.Item>
 
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/FlowerAndRomanticGifts/bg1.webp"
-              alt="Wooden Craft 3"
-            />
+          <img className="d-block w-100" src={process.env.PUBLIC_URL + "/FlowerAndRomanticGifts/bg1.webp"} alt="Wooden Craft 3" />
             <Carousel.Caption>
               <h3>Island-wide Free Shipping</h3>
               <p>Delivered right to your doorstep.</p>

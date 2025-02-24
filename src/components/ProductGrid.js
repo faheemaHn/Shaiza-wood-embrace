@@ -37,8 +37,8 @@ function ProductGrid() {
       products: [
         { name: "GoldenGift Set", oldPrice: 1800, newPrice: 1500, imgSrc: "/LuxuryCustomizedGiftBoxes/Golden Essence Gift Set.jpg" },
         { name: "Heart Box", oldPrice: 2200, newPrice: 1900, imgSrc: "/LuxuryCustomizedGiftBoxes/customized box.jpg" },
-        { name: "Couple Mug", oldPrice: 1200, newPrice: 1000, imgSrc: "HomeDecorLifestyleGifts/Morning Bliss Collection.jpg" },
-        { name: "Romantic RoseCocoa Treasure", oldPrice: 500, newPrice: 350, imgSrc: "FlowerAndRomanticGifts/Romantic Rose & Cocoa Treasure.jpg" },
+        { name: "Couple Mug", oldPrice: 1200, newPrice: 1000, imgSrc: "/HomeDecorLifestyleGifts/Morning Bliss Collection.jpg" },
+        { name: "Romantic RoseCocoa Treasure", oldPrice: 500, newPrice: 350, imgSrc: "/FlowerAndRomanticGifts/Romantic Rose & Cocoa Treasure.jpg" },
       ],
       visible: loversSpecialVisible,
       toggle: () => toggleViewMore("loversSpecial"),
@@ -75,7 +75,7 @@ function ProductGrid() {
             >
               {section.products.map((product, index) => (
                 <SwiperSlide key={index} className="product-item">
-                  <img src={product.imgSrc} alt={product.name} />
+                  <img src={process.env.PUBLIC_URL + product.imgSrc} alt={product.name} />
                   <p>{product.name}</p>
                   <p>
                     <span className="old-price">LKR {product.oldPrice}</span>

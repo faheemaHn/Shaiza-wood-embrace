@@ -94,7 +94,8 @@ const OurCollection = () => {
           <Col key={index}>
             <Card className="ourcollection-product-card">
               <div className="product-image-container">
-                <Card.Img variant="top" src={product.imgSrc} />
+              <Card.Img variant="top" src={process.env.PUBLIC_URL + product.imgSrc} alt={product.name + " image"} />
+
               </div>
               <Card.Body>
                 <Card.Title>{product.name}</Card.Title>

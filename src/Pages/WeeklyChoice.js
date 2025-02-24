@@ -105,7 +105,8 @@ const WeeklyChoice = () => {
               {choice.isTrending && <span className="badge trending-badge">Trending</span>}
               {choice.isBestDeal && <span className="badge deal-badge">Best Deal</span>}
               <div className="card-face front">
-                <img src={choice.image} alt={choice.name} />
+              <img src={process.env.PUBLIC_URL + choice.image} alt={choice.name} />
+
                 <h4>{choice.name}</h4>
                 <p>{choice.price}</p>
                 <p>{choice.Shipping}</p>
