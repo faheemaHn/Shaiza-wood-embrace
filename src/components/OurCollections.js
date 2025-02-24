@@ -6,7 +6,7 @@ const OurCollection = () => {
   const products = [
     {
       name: "Wood Frame",
-      imgSrc: "/WoodenGiftItems/Carved Bliss Frame.jpg",
+      imgSrc: "/WoodenGiftItems/Carved-Bliss-Frame.jpg",
       rating: 5,
       price: 1850,
       oldPrice: 2500,
