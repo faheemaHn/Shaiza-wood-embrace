@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Shaiza-wood-embrace/static/css/main.0e12c3fa.css",
+    "main.js": "/Shaiza-wood-embrace/static/js/main.d59c5af5.js",
+    "static/js/146.bac1f4d5.chunk.js": "/Shaiza-wood-embrace/static/js/146.bac1f4d5.chunk.js",
+    "static/media/bg5.webp": "/Shaiza-wood-embrace/static/media/bg5.7c61c8a267d7581b72da.webp",
+    "static/media/bg2.webp": "/Shaiza-wood-embrace/static/media/bg2.664a413753f580cdee54.webp",
+    "index.html": "/Shaiza-wood-embrace/index.html",
+    "main.0e12c3fa.css.map": "/Shaiza-wood-embrace/static/css/main.0e12c3fa.css.map",
+    "main.d59c5af5.js.map": "/Shaiza-wood-embrace/static/js/main.d59c5af5.js.map",
+    "146.bac1f4d5.chunk.js.map": "/Shaiza-wood-embrace/static/js/146.bac1f4d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e12c3fa.css",
+    "static/js/main.d59c5af5.js"
+  ]
+}
